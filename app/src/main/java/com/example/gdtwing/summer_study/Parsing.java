@@ -28,6 +28,7 @@ public class Parsing {
                 }
                 catch (NumberFormatException e){
                     System.out.println("Can't parse provided value"+value+"to integer");
+                    return ZERO_INTEGER;
                 }
             }
 
